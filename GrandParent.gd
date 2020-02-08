@@ -9,7 +9,8 @@ extends Node
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	# same as this print(get_node("Parent").name)
-	#print($Parent.get_child(1).name)
+#	print($Parent.name)
+#	print($Parent/Child1.name)
 	
 	##this is to search for a node.
 	#print(find_node("Child2",true,false).name)
@@ -18,4 +19,5 @@ func _ready():
 	#print($Parent.get_children()[0].name)
 	
 	#changes scenes
-	get_tree().change_scene("res://MyScene.tscn")
+	#get_tree().change_scene("res://MyScene.tscn")
+	pass

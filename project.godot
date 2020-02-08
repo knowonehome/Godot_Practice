@@ -19,6 +19,10 @@ config/name="Godot Practice"
 run/main_scene="res://MyScene.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameGlobals="*res://GameGlobals.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
